@@ -216,7 +216,7 @@ void MainWindow::readDataFromSendMail(QByteArray fromAddr
     mailHeader = "From:teststephen@163.com \nTo:" + toAddr + "\nSubject:" + subject + "\n\n";
     mailBody = content + "\n.\n";
 
-    //sendMailProtocolInit();
+    sendMailProtocolInit();
 }
 
 MainWindow::~MainWindow()

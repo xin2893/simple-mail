@@ -23,7 +23,9 @@ SOURCES += main.cpp\
 HEADERS  += mainwindow.h \
     readmail.h \
     contact.h \
-    sendmail.h
+    sendmail.h \
+    ui_contact.h
 
 FORMS    += mainwindow.ui \
-    sendmail.ui
+    sendmail.ui \
+    Contact.ui
